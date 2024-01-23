@@ -22,3 +22,38 @@ ul li a {
 li a:hover{
     opacity: 0.9;
 }
+
+.content{
+    position: relative;
+    padding: .5rem 1rem;
+}
+
+.favorite{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.favorite.not{
+    color: gray;
+}
+
+.origins{
+    flex: 9;
+}
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: .7rem;
+    color: gray;
+    margin-right: .3rem;
+}
+
+.cookTime{
+    flex: .3rem;
+    font-size: .8rem;
+}
+
